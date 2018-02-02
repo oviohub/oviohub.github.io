@@ -51,6 +51,7 @@ h5,
 h6 {
     font-family: Lato, sans-serif;
     font-weight: 700;
+    overflow-wrap: break-word;
 }
 
 a {
@@ -262,6 +263,7 @@ blockquote {
 #recent-works .item-inner {
     position: relative;
     margin: 0;
+    overflow-wrap: break-word;
 }
 
 .portfolio-items,
@@ -319,19 +321,22 @@ blockquote {
     padding: 0;
     margin: 0 20px 20px 0;
     position: relative;
+    object-fit: contain;
 }
 
 .portfolio-item img {
     width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
 .portfolio-item h5 {
     background: #fff;
     margin: 0;
     padding: 15px;
+    height: 60px;
     font-weight: 700;
     font-size: 16px;
-    white-space: nowrap;
     text-overflow: ellipsis;
     position: relative;
     border-bottom: 4px solid #f0f0f0;
