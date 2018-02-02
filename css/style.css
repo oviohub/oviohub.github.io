@@ -341,7 +341,6 @@ blockquote {
     padding: 15px;
     font-weight: 700;
     font-size: 16px;
-    white-space: nowrap;
     text-overflow: ellipsis;
     position: relative;
     border-bottom: 4px solid #f0f0f0;
