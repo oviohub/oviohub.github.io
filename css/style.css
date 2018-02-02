@@ -51,6 +51,7 @@ h5,
 h6 {
     font-family: Lato, sans-serif;
     font-weight: 700;
+    overflow-wrap: break-word;
 }
 
 a {
@@ -262,6 +263,7 @@ blockquote {
 #recent-works .item-inner {
     position: relative;
     margin: 0;
+    overflow-wrap: break-word;
 }
 
 .portfolio-items,
@@ -321,8 +323,16 @@ blockquote {
     position: relative;
 }
 
+.portfolio-item .item-image {
+    height: 300px;
+}
+
+
 .portfolio-item img {
     width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
 }
 
 .portfolio-item h5 {

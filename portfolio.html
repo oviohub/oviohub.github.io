@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +16,7 @@
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->       
+    <![endif]-->
     <script src="js/jquery.js"></script>
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
@@ -24,58 +25,54 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57x57.png">
 
     <script type="text/javascript">
-    jQuery(document).ready(function($){
-    'use strict';
-        jQuery('body').backstretch([
-            "",
-        ], {duration: 5000, fade: 500});
-
-        $("#mapwrapper").gMap({ controls: false,
-            scrollwheel: false,
-            markers: [{     
-                latitude:40.7566,
-                longitude: -73.9863,
-            icon: { image: "images/marker.png",
-                iconsize: [44,44],
-                iconanchor: [12,46],
-                infowindowanchor: [12, 0] } }],
-            icon: { 
-                image: "images/marker.png", 
-                iconsize: [26, 46],
-                iconanchor: [12, 46],
-                infowindowanchor: [12, 0] },
-            latitude:40.7566,
-            longitude: -73.9863,
-            zoom: 14 });
-    });
+        jQuery(document).ready(function ($) {
+            'use strict';
+            jQuery('body').backstretch([
+                "images/bg/bg1.jpg",
+                "images/bg/bg2.jpg",
+                "images/bg/bg3.jpg"
+            ], { duration: 5000, fade: 500 });
+        });
     </script>
-</head><!--/head-->
+</head>
+<!--/head-->
+
 <body>
-<div id="preloader"></div>
+    <div id="preloader"></div>
     <header class="navbar navbar-inverse navbar-fixed-top opaqued" role="banner">
-    <div id="search-wrapper">
-        <div class="container">
-            <input id="search-box" placeholder="Search">
+        <div id="search-wrapper">
+            <div class="container">
+                <input id="search-box" placeholder="Search">
+            </div>
         </div>
-    </div>
-    </div>
+        </div>
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> IMPACT</h1></a>
+                <a class="navbar-brand" href="index.html">
+                    <h1>
+                        <span class="pe-7s-gleam bounce-in"></span> OVIO</h1>
+                </a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Projects</a></li>
-                    <li><a href="contact-us.html">Contact</a></li> 
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
-    </header><!--/header-->
+    </header>
+    <!--/header-->
 
     <section id="single-page-slider" class="no-margin">
         <div class="carousel slide" data-ride="carousel">
@@ -89,113 +86,152 @@
                                     <hr>
                                     <p>A curated list of impactful, open-source projects for nonprofits and NGOs</p>
                                 </div>
-                            </div>   
+                            </div>
                         </div>
                     </div>
-                </div><!--/.item-->
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-    </section><!--/#main-slider-->
+                </div>
+                <!--/.item-->
+            </div>
+            <!--/.carousel-inner-->
+        </div>
+        <!--/.carousel-->
+    </section>
+    <!--/#main-slider-->
 
     <div id="content-wrapper">
         <section id="portfolio" class="white">
             <div class="container">
                 <ul class="portfolio-filter fade-down center">
-                    <li><a class="btn btn-outlined btn-primary active" href="#" data-filter="*">All</a></li>
-                    <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".bootstrap">Community</a></li>
-                    <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".html">Refugees</a></li>
-                    <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".wordpress">Homelessness</a></li>
-                </ul><!--/#portfolio-filter-->
-                    <div class="center gap fade-down section-heading">
-                        <p>Look through the projects and simply hop on their GitHub to start helping!</p>
-                    </div> 
-                    
-
-                    <ul class="portfolio-items col-3 isotope fade-up">
-                        <li class="portfolio-item apps isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/mapswipe.jpg" width="400px" height="270px" alt="">
-                                <h5>MapSwipe - With every swipe and tap, you help put families on the map.</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="https://github.com/mapswipe" rel="prettyPhoto"><i class="fa fa-github"></i></a>             
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla bootstrap isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-github"></i></a>              
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item bootstrap wordpress isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-github"></i></a>        
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla wordpress apps isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-github"></i></a>          
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla html isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-github"></i></a>          
-                                </div>    
-                            </div>       
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item wordpress html isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-github"></i></a>           
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla wordpress apps isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-github"></i></a>          
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla html isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-github"></i></a>          
-                                </div>    
-                            </div>       
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item wordpress html isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-github"></i></a>           
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                    </ul>
+                    <li>
+                        <a class="btn btn-outlined btn-primary active" href="#" data-filter="*">All</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-outlined btn-primary" href="#" data-filter=".bootstrap">Community</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-outlined btn-primary" href="#" data-filter=".html">Refugees</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-outlined btn-primary" href="#" data-filter=".wordpress">Homelessness</a>
+                    </li>
+                </ul>
+                <!--/#portfolio-filter-->
+                <div class="center gap fade-down section-heading">
+                    <p>Look through the projects and simply hop on their GitHub to start helping!</p>
                 </div>
-            </section>
+
+                <ul class="portfolio-items col-3 isotope fade-up">
+                    <li class="portfolio-item apps isotope-item">
+                        <div class="item-inner">
+                            <img src="images/portfolio/mapswipe.png" width="40px">
+                            <h5>MapSwipe - With every swipe and tap, you help put families on the map.</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="https://github.com/mapswipe">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/.portfolio-item-->
+                    <li class="portfolio-item joomla bootstrap isotope-item">
+                        <div class="item-inner">
+                            <img src="http://placehold.it/800x600" alt="">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/.portfolio-item-->
+                    <li class="portfolio-item bootstrap wordpress isotope-item">
+                        <div class="item-inner">
+                            <img src="http://placehold.it/800x600" alt="">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/.portfolio-item-->
+                    <li class="portfolio-item joomla wordpress apps isotope-item">
+                        <div class="item-inner">
+                            <img src="http://placehold.it/800x600" alt="">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/.portfolio-item-->
+                    <li class="portfolio-item joomla html isotope-item">
+                        <div class="item-inner">
+                            <img src="http://placehold.it/800x600" alt="">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/.portfolio-item-->
+                    <li class="portfolio-item wordpress html isotope-item">
+                        <div class="item-inner">
+                            <img src="http://placehold.it/800x600" alt="">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/.portfolio-item-->
+                    <li class="portfolio-item joomla wordpress apps isotope-item">
+                        <div class="item-inner">
+                            <img src="http://placehold.it/800x600" alt="">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/.portfolio-item-->
+                    <li class="portfolio-item joomla html isotope-item">
+                        <div class="item-inner">
+                            <img src="http://placehold.it/800x600" alt="">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/.portfolio-item-->
+                    <li class="portfolio-item wordpress html isotope-item">
+                        <div class="item-inner">
+                            <img src="http://placehold.it/800x600" alt="">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/.portfolio-item-->
+                </ul>
+            </div>
+        </section>
     </div>
 
     <script src="js/bootstrap.min.js"></script>
@@ -203,4 +239,5 @@
     <script src="js/plugins.js"></script>
     <script src="js/init.js"></script>
 </body>
+
 </html>
