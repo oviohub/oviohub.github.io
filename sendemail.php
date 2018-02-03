@@ -30,7 +30,7 @@ if(trim($name) == '') {
 } if(get_magic_quotes_gpc()) { $comments = stripslashes($comments); }
 
 //ENTER YOUR EMAIL ADDRESS HERE
-$address = 'email@example.com';
+$address = 'ovio.projects@gmail.com';
 
 $e_subject = 'You\'ve been contacted by ' . $name . '.';
 $e_body = "You have been contacted by $name from $website from your contact form, their additional message is as follows." . "\r\n" . "\r\n";
