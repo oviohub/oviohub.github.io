@@ -58,7 +58,7 @@ section {
   margin-top: 0;
 }
 
-::-moz-selection {
+/* ::-moz-selection {
   color: #fff;
   background: #212529;
   text-shadow: none;
@@ -73,12 +73,12 @@ section {
 img::selection {
   color: #fff;
   background: transparent;
-}
+} */
 
-img::-moz-selection {
+/* img::-moz-selection {
   color: #fff;
   background: transparent;
-}
+} */
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
