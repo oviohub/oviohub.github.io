@@ -34,6 +34,14 @@
   <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-icon-72x72.png">
   <link rel="apple-touch-icon" href="images/ico/apple-icon-57x57.png">
 
+  <!-- Projects Load -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script> 
+    $(function () {
+      $("#includedContent").load("explorer/explorer.html");
+    });
+  </script>
+  <!-- End Projects Load -->
   <!-- Facebook Pixel Code -->
   <script>
     !function (f, b, e, v, n, t, s) {
@@ -83,7 +91,7 @@
             <a class="nav-link js-scroll-trigger" href="#companies">Companies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Explore</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#partners">Partners</a>
@@ -359,14 +367,17 @@
   <!-- Portfolio -->
   <section class="p-0" id="portfolio">
     <div class="col-lg-12 text-center">
-      <h2 class="section-heading">Projects</h2>
+      <h2 class="section-heading">Explore</h2>
       <hr class="my-4">
     </div>
     <div class="col-lg-8 mx-auto text-center">
-      <p class="text mb-4">Can't wait for a match? Jump right-in!
+      <p class="text-justify mb-4">We've put together a selection of for-impact open-source software. If you would like to volunteer and can't wait for
+        a match, don't hesitate to look through these and contribute through GitHub!
       </p>
     </div>
     <div class="container-fluid p-0">
+      <!-- Explorer Automation -->
+      <!-- <div class="row no-gutters popup-gallery" id="includedContent"></div> -->
       <div class="row no-gutters popup-gallery">
         <!-- Projects Divs -->
         <div class="col-lg-4 col-sm-6">
@@ -683,8 +694,8 @@
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
           &copy; 2018
-          <a class="white" target="_blank" href="http://www.oviohub.com" title="OvioHub">Ovio Inc</a> - All Rights Reserved - Theme by
-          <a class="white" target="_blank" href="http://www.distinctivethemes.com" title="Premium Themes and Templates">Distinctive Themes</a>
+          <a class="white" target="_blank" href="http://www.oviohub.com" title="OvioHub">Ovio Inc</a> - All Rights Reserved -
+          <a class="white" target="_blank" href="http://www.distinctivethemes.com" title="Premium Themes and Templates">Theme</a>
         </div>
       </div>
     </div>
