@@ -4,7 +4,11 @@
         "category": "Humanitarian Mapping",
         "description": "MapSwipe - With every swipe and tap, help put families on a map",
         "github": "https://github.com/mapswipe",
-        "image": "1_mapswipe.jpg"
+        "image": "1_mapswipe.jpg",
+        "languages": [
+            "python",
+            "react-native"
+        ]
     },
     "open_data_kit": {
         "title": "Open Data Kit",
