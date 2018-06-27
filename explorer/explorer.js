@@ -8,7 +8,7 @@ for (var key in projects) {
     html += (
         '<div class="col-lg-4 col-sm-6">' +
         '<a class="portfolio-box" target="_blank" href="' + project.github + '">' +
-        '<img class= "img-fluid" src = "images/' + project.image + '" alt = "" >' +
+        '<img class= "img-fluid" src = "images/portfolio/' + project.image + '" alt = "" >' +
         '<div class= "portfolio-box-caption" >' +
         '<div class="portfolio-box-caption-content">' +
         '<div class="project-category text-faded">' + project.category + '</div>' +

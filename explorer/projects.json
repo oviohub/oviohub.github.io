@@ -73,5 +73,35 @@
         "image": "11_medic_mobile.jpg",
         "category": "Healthcare",
         "description": "Medic Mobile - Help health workers around the globe"
+    },
+    "mifos": {
+        "github": "https://github.com/openMF",
+        "image": "mifos.jpg",
+        "category": "Financial Inclusion",
+        "description": "Mifos - Delivering the services needed for an effective financial inclusion"
+    },
+    "shelter_tech": {
+        "github": "https://github.com/ShelterTechSF",
+        "image": "shelter_tech.jpg",
+        "category": "Homelessness",
+        "description": "ShelterTech - Develop digital solutions for underserved communities"
+    },
+    "rapid_pro": {
+        "github": "https://github.com/rapidpro/rapidpro",
+        "image": "rapidpro.jpg",
+        "category": "International Development",
+        "description": "RapidPro - Deliver rapid and vital real-time information about lifesaving services"
+    },
+    "code_buddies": {
+        "github": "https://github.com/codebuddies/codebuddies",
+        "image": "code_buddies.jpg",
+        "category": "Education",
+        "description": "Code Buddies - Community-organized hangouts for learning programming together"
+    },
+    "open_emr": {
+        "github": "https://github.com/openemr/openemr",
+        "image": "open_emr.jpg",
+        "category": "Healthcare",
+        "description": "Open EMR - open source electronic health records & medical practice management solution"
     }
 }
