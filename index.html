@@ -42,6 +42,15 @@
     });
   </script>
   <!-- End Projects Load -->
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
   <!-- Facebook Pixel Code -->
   <script>
     !function (f, b, e, v, n, t, s) {
@@ -693,6 +702,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
+          <div class="fb-like" data-href="https://www.facebook.com/oviohub/" data-layout="button" data-action="like" data-size="small"
+            data-show-faces="false" data-share="true"></div>
           &copy; 2018
           <a class="white" target="_blank" href="http://www.oviohub.com" title="OvioHub">Ovio Inc</a> - All Rights Reserved -
           <a class="white" target="_blank" href="http://www.distinctivethemes.com" title="Premium Themes and Templates">Theme</a>
