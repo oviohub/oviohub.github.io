@@ -1,0 +1,111 @@
+{
+    "mapswipe": {
+        "title": "Mapswipe",
+        "category": "Humanitarian Mapping",
+        "description": "MapSwipe - With every swipe and tap, help put families on a map",
+        "github": "https://github.com/mapswipe",
+        "image": "1_mapswipe.jpg",
+        "languages": [
+            "python",
+            "react-native"
+        ]
+    },
+    "open_data_kit": {
+        "title": "Open Data Kit",
+        "category": "Humanitarian Data Management",
+        "description": "Open Data Kit - Assist with the collection and management of survey data",
+        "github": "https://github.com/opendatakit",
+        "image": "2_open_datakit.jpg"
+    },
+    "if_me": {
+        "title": "If Me",
+        "category": "Healthcare",
+        "description": "If-Me - Communication and mental health education tool",
+        "github": "https://github.com/ifmeorg/ifme",
+        "image": "10_if_me.jpg"
+    },
+    "hot_osm": {
+        "github": "https://github.com/hotosm",
+        "image": "4_hotosm.jpg",
+        "category": "Humanitarian Mapping",
+        "description": "Hotosm - Open maps for humanitarian response and economic development"
+    },
+    "healthsites": {
+        "github": "https://github.com/healthsites/healthsites",
+        "image": "5_healthsites-io.jpg",
+        "category": "Healthcare",
+        "description": "Healthsites.io - Capturing and sharing critical health and sanitation data"
+    },
+    "openmrs": {
+        "github": "https://github.com/openmrs",
+        "image": "6_open_mrs.jpg",
+        "category": "Healthcare",
+        "description": "Open MRS - Open source Health IT by and for the entire planet"
+    },
+    "open_food_network": {
+        "github": "https://github.com/openfoodfoundation/openfoodnetwork",
+        "image": "7_openfoodnetwork.jpg",
+        "category": "Sustainability, Food",
+        "description": "Open Food Network - Rethink the food supply chain"
+    },
+    "miracle_messages": {
+        "github": "https://github.com/miracle-messages",
+        "image": "9_miracle_messages.jpg",
+        "category": "Homelessness",
+        "description": "Miracle Messages - Help reunite families and loved ones"
+    },
+    "oppia": {
+        "github": "https://github.com/oppia",
+        "image": "8_oppia.png",
+        "category": "Education",
+        "description": "Oppia - Think outside the books"
+    },
+    "humanitarian_tbox": {
+        "github": "https://github.com/HTBox",
+        "image": "3_htbox.png",
+        "category": "Humanitarian Data Management",
+        "description": "Humanitarian ToolBox - When disaster strikes, code saves lives"
+    },
+    "foodsoft": {
+        "github": "https://github.com/foodcoops/foodsoft",
+        "image": "12_food_coops.jpg",
+        "category": "Food",
+        "description": "FoodSoft - Web-based software to manage a non-profit food coop"
+    },
+    "medic_mobile": {
+        "github": "https://github.com/medic",
+        "image": "11_medic_mobile.jpg",
+        "category": "Healthcare",
+        "description": "Medic Mobile - Help health workers around the globe"
+    },
+    "mifos": {
+        "github": "https://github.com/openMF",
+        "image": "mifos.jpg",
+        "category": "Financial Inclusion",
+        "description": "Mifos - Delivering the services needed for an effective financial inclusion"
+    },
+    "shelter_tech": {
+        "github": "https://github.com/ShelterTechSF",
+        "image": "shelter_tech.jpg",
+        "category": "Homelessness",
+        "description": "ShelterTech - Develop digital solutions for underserved communities"
+    },
+    "rapid_pro": {
+        "github": "https://github.com/rapidpro/rapidpro",
+        "image": "rapidpro.jpg",
+        "category": "International Development",
+        "description": "RapidPro - Deliver rapid and vital real-time information about lifesaving services"
+    },
+    "code_buddies": {
+        "github": "https://github.com/codebuddies/codebuddies",
+        "image": "code_buddies.jpg",
+        "category": "Education",
+        "description": "Code Buddies - Community-organized hangouts for learning programming together"
+    },
+    "open_emr": {
+        "github": "https://github.com/openemr/openemr",
+        "image": "open_emr.jpg",
+        "category": "Healthcare",
+        "description": "Open EMR - open source electronic health records & medical practice management solution"
+    }
+}
