@@ -63,7 +63,7 @@
     "humanitarian_tbox": {
         "github": "https://github.com/HTBox",
         "image": "3_htbox.png",
-        "category": "Humanitarian",
+        "category": "Humanitarian Data Management",
         "description": "Humanitarian ToolBox - When disaster strikes, code saves lives"
     },
     "foodsoft": {
