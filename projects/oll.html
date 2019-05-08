@@ -88,7 +88,7 @@
 
 <body id="page-top">
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" color="orange">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="https://oviohub.com">Ovio - Open Impact</a>
     </div>
@@ -113,7 +113,7 @@
     <div class="container">
       <div class="row vertical-align">
         <div class="col-md-12 mx-auto text-center">
-          <a class="" href="https://replate.org"><img src="../images/organizations/replate.png" style="max-width: 50%;"></a>
+          <a class="" href="http://www.openlawlib.org/"><img src="../images/organizations/Open Law Library.png" style="max-width: 50%;"></a>
         </div>
       </div>
     </div>
@@ -124,38 +124,43 @@
     <div class="container">
       <div class="row vertical-align">
         <div class="col-md-8 mx-auto text-justify text-light">
-            Tech nonprofit based in Berkeley, CA. Replate matches extra food with communities in need. Their platform enables charities and hungry individuals to recover food donations based on their needs and location.
+            <a class="text-faded text-dark" href="http://www.openlawlib.org/">Open Law Library</a> is a non-profit dedicated to making the law available to all in human- and computer-readable formats. We have built the Open Law Platform to empower governments to easily and rapidly publish their laws in open and free digital-native formats.
             </p>
             <h2>Core Challenge</h2>
 
             <p>
-            Even if a small tech nonprofit can put together a performant web-platform, supporting it in production over months and years requires knowledge, experience, and hard work. How can we help the tech nonprofit Replate build the infrastructure, systems, and processes they need to support a mission-critical platform for the long run?
+            We are taking the tools and techniques developed for programmers to publish software code - IDEs, linters, compilers, continuous integration/deployment, VCS, etc - and adapting and transforming them for use by lawyers to publish legal codes. We have two major challenges: (1) As our “code base” of laws grows (over 1.2m “LoC” and growing), we need to constantly improve our tooling to draft, annotate, navigate, compile, and understand the laws published on our platform; and (2) because we are working with official laws, security, auditability, and preservation are vital.
             </p>
             <h2>Projects</h2>
 
             <ul>
 
-            <li><strong>Efficiency Audit</strong> The main platform is built using Ruby on Rails and React, and is supported by a single engineering lead. Replate would love a senior-level engineer or highly technical engineering manager to mentor our lead engineer during our hyper growth period, and help auditing our code. This would include working closely with our engineer to review code, spec projects, and advise on building a scalable architecture.
-            <li><strong>Data Flow</strong> We would like to better leverage the information created through our application and improve monitoring. By doing so, we believe that we can improve our infrastructure, our efficiency, and deliver more food.
-            <li><strong>Food Recovery App</strong> We are building a mobile app to complement our web-platform and hope to release it in March 2018. Advice and guidance from React-Native experts would be super useful to help us deliver the best experience possible to our users.
-            <li><strong>Recipients Portal</strong> In a sense, we are a B2B company, we get food from corporate clients and deliver it to organizations and shelters. We would like to develop a portal to better engage with our recipients, better understand how much food is delivered and keep improving their experience.
+            <li><strong>Cryptographic Authentication of Laws on Decadal timescale</strong> Open Law Library publishes all laws as GIT repositories, and these laws need to be cryptographically authenticatable. GIT signing has a number of issues. We are building a tool called The Archive Framework. We are looking for security experts who are interested in helping us build, secure, test, and/or audit this system. This project will make it possible for governments to easily publish versioned laws. This is a vital prerequisite for digitally publishing official laws.
+            <p>
+            <li><strong>DevOps Improvements</strong> We launched websites for our first two partner jurisdictions in 2018. We plan to launch for at least 10 more this year. Each partner’s website is customized. We host everything on AWS, and use Terraform/Packer/Ansible to create similar-but-not-identical environments for each partner. We are not DevOps people, but have been teaching ourselves. It would be incredibly helpful to have a volunteer with deep DevOps experience who could review our stack, help us incrementally improve our architecture design, and then help us implement those improvements.This will make it possible for us to not only rapidly onboard new jurisdictions (and thus publish more laws in open, accessible formats), but also ensure that we serve the needs of our existing clients.
+            <p>
+            <li><strong>ML/AI for automated lawyer assistance</strong> Each law can be thought of as a change set. We would like to use ML/AI to create a model to, given a location in the document, predict the codification instruction that describes that location of the document. Since These codification instructions need to be 100% correct, we would use this model to provide autocomplete within the IDE that would then be reviewed immediately by the attorney. This system will reduce the time it takes attorneys to perform basic codification tasks, freeing their time to perform higher-value annotations, improving the usefulness of the open laws published on the platform.
             </li></ul>
 
             <h2>Core Skills Needed</h2>
 
-            Ruby on Rails, React, Heroku, AWS, Sentry, React Native, Technical Project Management, experience working with systems in real-world production environments.
+            RMachine Learning/Artificial Intelligence, DevOps, Security Experts; GIT Experts.
             </p>
             <h2>Current Tech Stack</h2>
 
             <ul>
 
-            <li>React front end, Ruby on Rails backend, Heroku deploy
-            <li>Sentry
-            </li></ul> 
+            <li>DevOps: AWS; terraform, packer, ansible
+            <li>Drafting IDE (Word plugin for lawyers) - C# VSTO; React; flask
+            <li>Codification IDE (language server/ VS Code client) - Python (pygls); typescript
+            <li>Codification engine and static site/document generator - Python/lxml
+            <li>Dynamic website components: Vue; Python (django); OpenResty
+            <li>Authentication of laws: Python (TUF, TAF)
+            </li></ul>  
 
             <p>
             <br>
-            Project contact <a class="text-faded" href="https://linkedin.com/in/maenmahfoud/">Maen Mahfoud</a>, Replate Founder.
+            Project contact <a class="text-faded" href="https://www.linkedin.com/in/david-greisen/">David Greisen</a>, Founder and CEO
             </p>
 
         </div>
