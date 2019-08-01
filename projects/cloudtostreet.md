@@ -1,3 +1,5 @@
+[![](../images/ctos_wfp.png)](http://www.argolabs.org/)
+
 # **[Cloud to Street](https://www.cloudtostreet.info/) (for [WFP](https://www1.wfp.org/)):**
 
 Cloud to Street is the leading dynamic flood mapping system designed to enable the world's most vulnerable communities to prepare for and respond to climate catastrophes. We harness global satellites, machine learning, and community intelligence to monitor floods in near realtime around the world and remotely analyze local flood exposure at a fraction of the cost and time of traditional flood mapping. Our mission is to ensure that all vulnerable governments can finally access the high quality information they need to prepare and respond to increasing catastrophes. Today 11 national governments are using Cloud to Street and we are on track to enable new flood protection and insurance for 10 million people in the next 5 years.
