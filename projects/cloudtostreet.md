@@ -82,6 +82,6 @@ We have a current dashboard and other communications processes, as well as a hig
 
 **Next Steps**
 
-You love this organization and their projects? Send us an email [hello@oviohub.com](hello@oviohub.com) now and will introduce you to the right person.
+You love this organization and their projects? Send us an email at [hello@oviohub.com](hello@oviohub.com) now and we will introduce you to the team after reviewing your profile!
 
 <!-- Docs to Markdown version 1.0β17 -->
