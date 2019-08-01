@@ -80,8 +80,8 @@ August through October
 
 We have a current dashboard and other communications processes, as well as a high level strategy document outlining the goals of the user’s experience of our product. We expect the volunteer to do a thorough review of our dashboard and other communications to the Sri Lankan government by using our material and talking with us. We’d also like a few sessions where they lead us through questions we should consider when researching our users. They should iteratively provide suggestions over the phone, in writing and as drawn wireframes that we can immediately develop and test out with user. Ideally, we would do 2-3 rounds of build, test, feedback with the volunteer.
 
-**Next Steps (filled by Ovio)**
+**Next Steps**
 
-You love this organization and their projects? Send us an email now and will introduce you to the right person.
+You love this organization and their projects? Send us an email [hello@oviohub.com](hello@oviohub.com) now and will introduce you to the right person.
 
 <!-- Docs to Markdown version 1.0β17 -->
